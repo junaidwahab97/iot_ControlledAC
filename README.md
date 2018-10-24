@@ -38,6 +38,9 @@ MISCELLANEOUS:
 •	Wire cutter.
 •	1 * Micro USB Cable.
 
+TOTAL COST OF COMPONENTS:
+-Rs 800-1000
+
 ## System Oveview
 The main component of the setup is the Nodemcu ESP8266 module. All the other hardware components are connected   to the Nodemcu. The board is programmed in Arduino IDE and uses the ESP8266, Arduino json, adafruit and irremote esp8266 libraries. These libraries have been added to the Arduino IDE.
 The neutral wire of the air conditioner is connected to the relay and the relay is connected to the Nodemcu. The IR receiver is also connected to the Nodemcu module. The transistor is connected with IR led to transmit IR signal of the required AC.
