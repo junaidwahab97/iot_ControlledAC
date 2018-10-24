@@ -51,7 +51,7 @@ The neutral wire of the air conditioner is connected to the relay and the relay 
 
 ## Receiving IR Signal From AC Remote
 
-We need to first receive the IR signal from our remote in order to replicate it. We set the remote to the required settings then press the power on and off button then capture it with the receiver. Irremoteesp8266 library is used .
+We need to first receive the IR signal from our remote in order to replicate it. We set the remote to the required settings then press the power on and off button then capture it with the receiver. Irremoteesp8266 library is used . We can skip this step if we already have the code for our AC.
 ## Transmitting IR Signal
-
-After receiving the signal, to replicate it we use an IR led and a NPN Transistor. The IR led transmits the IR signal to the AC which turns it on or off.
+To transmit the IR signal we use an IR led and a NPN Transistor. The IR led transmits the IR signal to the AC which turns it on or off.
+We have to upload the code according to our AC manufacturer.
